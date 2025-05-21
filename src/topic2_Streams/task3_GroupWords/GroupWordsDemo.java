@@ -10,7 +10,7 @@ public class GroupWordsDemo {
 
     public static void main(String[] args) {
         List<String> strList =
-                new ArrayList<>(Arrays.asList("apple", "ant", "banana", "berry", "cherry", "carrot"));
+                Arrays.asList("apple", "ant", "banana", "berry", "cherry", "carrot");
 
         Map<Character, List<String>> sortedByFirstChar = strList.stream()
                 .collect(Collectors.groupingBy(str -> str.charAt(0)));

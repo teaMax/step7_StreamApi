@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CountEvenNumbersDemo {
     public static void main(String[] args) {
-        List<Integer> intList = new ArrayList<>(Arrays.asList(10, 15, 20, 25, 30, 35, 40));
+        List<Integer> intList = Arrays.asList(10, 15, 20, 25, 30, 35, 40);
 
         System.out.println("Количество четных чисел в массиве: " +
                 intList +
